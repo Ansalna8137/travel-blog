@@ -1,0 +1,87 @@
+.navbar{
+    position: sticky;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+}
+    ul li a{
+    display: flex;
+    justify-content:end;
+    margin: 10px;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    }
+    ul li a:hover{
+        color: rgb(126, 85, 164);
+    }
+    .overlay{
+        position: absolute;
+        top: 200px;
+        left: 800px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration-line: overline;
+        
+   }
+   .overlay h2{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+   }
+   h2:hover{
+    transition: 0.3s;
+    
+   }
+   .card img{
+      width: 100%;
+      height: 100%;
+   }
+   .row{
+    background-image: url('https://images.unsplash.com/photo-1587221703223-181d78a8fc4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGhpa2luZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+   }
+   .col{
+    text-align: justify;
+   }
+   h1{
+    text-align: center;
+   }
+   .col:hover{
+    
+    transform:scale(0.9) ;
+   }
+   .overlays p{
+    position: absolute;
+    top: 1300px;
+    left: 700px;
+    margin-right: 30px;
+    color: white;
+    
+    text-align: justify;
+   }
+   .overlays img{
+    position: absolute;
+    top: 990px;
+    left: 890px;
+    width: 270px;
+    height: 270px;
+    border-style: groove;
+    border-color: rgb(198, 179, 179);
+    
+   }
+   .overlays h4{
+    position: absolute;
+    top: 910px;
+    left: 910px;
+   }
+   .row1{
+    display: flex;
+   }
+   
+   
